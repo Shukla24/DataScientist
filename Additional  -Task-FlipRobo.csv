@@ -1,0 +1,128 @@
+Machine Learning Worksheet-1
+
+1.B
+2.D
+3.D
+4.A
+5.B
+6.D
+7.A
+8.B
+9.D
+10.A
+11.D
+12.A
+13.Cluster analysis or clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters).Types of clustering algorithm-
+"Connectivity model, Centroid model, Distribution model, density model."
+K-means clustering-K means is an iterative clustering algorithm that aims to find local maxima in each iteration..
+"Hierarchical Clustering- Hierarchical clustering, as the name suggests is an algorithm that builds hierarchy of clusters. This algorithm starts with all the data points assigned to a cluster of their own. Then two nearest clusters are merged into the same cluster. In the end, this algorithm terminates when there is only a single cluster left."
+"14.SSE, V-measure, Normalized mutul Information, CMM Purity etc."
+"15.A set of statistical methods used to group variables or observations into strongly inter-related subgroups. In epidemiology, it may be used to analyze a closely grouped series of events or cases of disease or other health-related phenomenon with well-defined distribution patterns in relation to time or place or both."
+"Types - Hierarchical clustering, Partition clustering, Exclusive Clustering, Overlapping Clustering, Fuzzy clustering, Complete clustering."
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Machine Learning Worksheet-2
+
+1.D
+2.E
+3.A
+4.A
+5.B
+6.B
+7.A
+8.D
+9.D
+10.A
+11.F
+12.E
+"13.Yes, because a mean is easily influenced by extreme values."
+"14.Other clustering algorithms with better features tend to be more expensive. In this case, k-means becomes a great solution for pre-clustering, reducing the space into disjoint smaller sub-spaces where other clustering algorithms can be applied. K-means is the simplest. To implement and to run."
+"15.The basic k-means clustering is based on a non-deterministic algorithm. This means that running the algorithm several times on the same data, could give different results. However, to ensure consistent results, FCS Express performs k-means clustering using a deterministic method."
+
+
+SQL Worksheet-1
+
+1.A &D
+"2.A, B,C."
+3.B.
+4.B.
+5.A
+6.C.
+7.B.
+8.B.
+9.B.
+10.A.
+11.  Data Warehousing is process for collecting and managing data from varied sources to provide meaningful business insights. A Data warehouse is typically used to connect and analyze business data from heterogeneous sources.
+12. Online Analytical Processing (OLAP) is a category of software tools that analyze data stored in a database whereas Online transaction processing (OLTP) supports transaction-oriented applications in a 3-tier architecture.
+"OLAP creates a single platform for all type of business analysis needs which includes planning, budgeting, forecasting, and analysis while OLTP is useful to administer day to day transactions of an organization"
+OLAP is characterized by a large volume of data while OLTP is characterized by large numbers of short online transactions.
+
+13.Characterstics -
+A. Subject-oriented- A data warehouse is always a subject oriented as it delivers information about a theme instead of organization's current operations.
+B. Integrated-  is somewhere same as subject orientation which is made in a reliable format. Integration means founding a shared entity to scale the all similar data from the different databases.
+
+"C. Time-Variant - In this data is maintained via different intervals of time such as weekly, monthly, or annually etc. It founds various time limit which are structured between the large datasets and are held in online transaction process (OLTP)"
+D. Non-Volatile - As the name defines the data resided in data warehouse is permanent. It also means that data is not erased or deleted when new data is inserted.
+
+14.    Star schema is the fundamental schema among the data mart schema and it is simplest. This schema is widely used to develop or build a data warehouse and dimensional data marts. It includes one or more fact tables indexing any number of dimensional tables. The star schema is a necessary case of the snowflake schema. It is also efficient for handling basic queries.
+It is said to be star as its physical model resembles to the star shape having a fact table at its center and the dimension tables at its peripheral representing the star's points.
+15.SETL is a high-level programming language that's based on the mathematical theory of sets. It was developed in the early 1970's by mathematician Professor J. Schwartz. SETL is an interpreted language with a syntax that is resembles C and in many cases similar to Perl. In SETL every statement is terminated by a semicolon. Variable names are case-insensitive and are automatically determined by their last assignment
+
+SQL Worksheet-2
+1. D
+2. C
+3. A
+4. D
+5. B
+6. C
+7. A
+8. C
+9. A
+10. D
+11. X
+12. C
+13. A
+"14. B,C,D."
+"15. A,B,D."
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+STATISTICS Worksheet  -1
+1. A
+2. A
+3. B
+4. D
+5. C
+6. B
+7. B
+8. A
+9. C
+"10. Normal distribution, also known as the Gaussian distribution, is a probability distribution that is symmetric about the mean, showing that data near the mean are more frequent in occurrence than data far from the mean. In graph form, normal distribution will appear as a bell curve."
+"11. Find missing/corrupted data in a dataset and either drop those rows or columns, or decide to replace them with another value."
+"In Pandas, there are two very useful methods: isnull() and dropna() that will help you find columns of data with missing or corrupted data and drop those values. If we want to fill the invalid values with a placeholder value (for example, 0), we could use the fillna() method."
+Remove rows with missing values - This works well if 1) the values are missing randomly
+"Build another predictive model to predict the missing values This could be a      whole project in itself, so simple techniques are usually used here. se a model that can incorporate missing data - Like a random forest, or any tree-based method"
+12.A/B testing (also known as split testing) is a process of showing two       variants of the same web page to different segments of website visitors at the same time and comparing which variant drives more conversions.
+"13.  It is a non-standard, but a fairly flexible imputation algorithm. It uses RandomForest at its core to predict the missing data. It can be applied to both continuous and categorical variables which makes it advantageous over other imputation algorithms."
+"14. Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data. One variable is considered to be an explanatory variable, and the other is considered to be a dependent variable.."
+15. Two branches of Statistics-
+"A. Descriptive -	Descriptive statistics are brief descriptive coefficients that summarize a given data set, which can be either a representation of the entire or a sample of a population. Descriptive statistics are broken down into measures of central tendency and measures of variability (spread)."
+b. Inferential- Inferential statistics is one of the two main branches of statistics. Inferential statistics use a random sample of data taken from a population to describe and make inferences about the population.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+STATISTICS Worksheet  -2
+
+1. C
+2. C
+3. D
+4. C
+5. D
+6. B
+7. C
+8. B
+9. D
+10. A
+11. C
+12. D
+13. C
+14. A
+15. D
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
